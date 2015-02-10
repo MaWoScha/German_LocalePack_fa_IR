@@ -1,0 +1,31 @@
+{
+  "name": "mawoscha/german-localepack-fa-ir",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Farsi (Iran) Community Translation",
+  "authors":[
+    {
+      "name":"MaWoScha"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackFa", "./app/code/community/German/LocalePackFa"],
+      ["./app/etc/modules/German_LocalePackFa.xml", "./app/etc/modules/German_LocalePackFa.xml"],
+      ["./app/locale/de_DE/German_LocaleFa.csv", "./app/locale/de_DE/German_LocaleFa.csv"],
+      ["./app/locale/en_US/German_LocaleFa.csv", "./app/locale/en_US/German_LocaleFa.csv"],
+      ["./app/locale/es_ES/German_LocaleFa.csv", "./app/locale/es_ES/German_LocaleFa.csv"],
+      ["./app/locale/fa_IR/German_LocaleFa.csv", "./app/locale/fa_IR/German_LocaleFa.csv"],
+      ["./app/locale/fr_FR/German_LocaleFa.csv", "./app/locale/fr_FR/German_LocaleFa.csv"],
+      ["./app/locale/pt_PT/German_LocaleFa.csv", "./app/locale/pt_PT/German_LocaleFa.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
