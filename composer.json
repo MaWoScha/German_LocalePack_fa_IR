@@ -17,6 +17,8 @@
     "map": [
       ["./app/code/community/German/LocalePackFa", "./app/code/community/German/LocalePackFa"],
       ["./app/etc/modules/German_LocalePackFa.xml", "./app/etc/modules/German_LocalePackFa.xml"],
+      ["./downloader/template_fa_1.5", "./downloader/template_fa_1.5"],
+      ["./downloader/template_fa_1.7", "./downloader/template_fa_1.7"],
       ["./app/locale/de_DE/German_LocaleFa.csv", "./app/locale/de_DE/German_LocaleFa.csv"],
       ["./app/locale/en_US/German_LocaleFa.csv", "./app/locale/en_US/German_LocaleFa.csv"],
       ["./app/locale/es_ES/German_LocaleFa.csv", "./app/locale/es_ES/German_LocaleFa.csv"],

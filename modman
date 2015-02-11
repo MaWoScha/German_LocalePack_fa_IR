@@ -4,6 +4,8 @@ app/etc/modules/German_LocalePackFa.xml                       app/etc/modules/Ge
 
 
 #Downloader
+downloader/template_fa_1.5  downloader/template_fa_1.5
+downloader/template_fa_1.7  downloader/template_fa_1.7
 
 
 #Misc
