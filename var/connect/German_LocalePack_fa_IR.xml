@@ -13,7 +13,7 @@ Persisches Sprachpaket für Magento Commerce - Sprachversion für Iran
 Paquete de idioma pérsico para Magento Commerce - Versión para Irán</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,27 @@ Paquete de idioma pérsico para Magento Commerce - Versión para Irán</descript
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -75,10 +94,29 @@ Paquete de idioma pérsico para Magento Commerce - Versión para Irán</descript
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackfa.xml</path>
          <path>German/LocalePackFa</path>
          <path>modules/German_LocalePackFa.xml</path>
          <path>downloader/template_fa_1.5</path>
          <path>downloader/template_fa_1.7</path>
+         <path>js/german/localepackfa/setup.js</path>
+         <path>js/tiny_mce/langs/fa.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/fa.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/fa.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/fa_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/fa.js</path>
          <path>de_DE/German_LocaleFa.csv</path>
          <path>en_US/German_LocaleFa.csv</path>
          <path>es_ES/German_LocaleFa.csv</path>
@@ -88,10 +126,29 @@ Paquete de idioma pérsico para Magento Commerce - Versión para Irán</descript
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -111,9 +168,47 @@ Paquete de idioma pérsico para Magento Commerce - Versión para Irán</descript
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
