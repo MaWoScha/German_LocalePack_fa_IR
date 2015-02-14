@@ -69,6 +69,10 @@ app/locale/fa_IR/template/email/sitemap_generate_warning.html app/locale/fa_IR/t
 app/locale/fa_IR/template/email/token.html app/locale/fa_IR/template/email/token.html
 app/locale/fa_IR/template/email/wishlist_share.html app/locale/fa_IR/template/email/wishlist_share.html
 
+#Email subtemplates
+app/locale/fa_IR/template/email/html/footer.html app/locale/fa_IR/template/email/html/footer.html
+app/locale/fa_IR/template/email/html/header.html app/locale/fa_IR/template/email/html/header.html
+
 #Email Sales Templates
 app/locale/fa_IR/template/email/sales/creditmemo_new_guest.html app/locale/fa_IR/template/email/sales/creditmemo_new_guest.html
 app/locale/fa_IR/template/email/sales/creditmemo_new.html app/locale/fa_IR/template/email/sales/creditmemo_new.html
